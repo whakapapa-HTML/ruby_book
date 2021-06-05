@@ -4,4 +4,3 @@ def convert_length(length, form: :m, to: :m)
   (length / UNITS[form]*
     UNITS[to]).round(2)
 end
-

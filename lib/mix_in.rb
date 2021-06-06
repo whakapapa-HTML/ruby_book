@@ -1,3 +1,9 @@
+require_relative 'refinements'
+
+
+
+using  StringShuffle
+
 module Taggable
   def price_tag
     "#{self.price}円"
@@ -13,4 +19,4 @@ class Product
 end
 
 product = Product.new
-puts product.price_tag
+puts product.shuffle

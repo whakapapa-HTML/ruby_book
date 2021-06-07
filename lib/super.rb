@@ -16,3 +16,4 @@ class Bar < Foo
 end
 
 puts Bar.new.foo 6
+
